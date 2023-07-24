@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.ParentBlock{
+  border: 1 px solid black;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+
+.ChildBlock{
+  display: inline-block;
+  border: 1px ;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+
+.Name {
+  background-color: #1e4eac;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.App-portrait{
+    padding: 10px 10px;
+    background-color: blue;
+    max-width: 10%;
+    height: auto;
+  }
+
+
