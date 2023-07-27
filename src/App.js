@@ -31,14 +31,8 @@ function Education(){
         </div>
         <div className='ChildBlock'>
           <h2> 9/22 - Nu </h2>
-          
         </div>
-      
-      
-
       </div>
-      
-
     </div>
   )
 }
