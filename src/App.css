@@ -1,6 +1,48 @@
-.App {
-  text-align: center;
+.container {
+  background-color: black;
+  justify-content: stretch;
+  display: grid;
+  grid-template-columns: [first] 1fr [menu-left-first] 1fr [menu-left-last] 1fr  [body-left] 1fr 1fr [body-right] 1fr [menu-right-first] 1fr  [menu-right-last] 1fr  [last];
+  grid-template-rows: [header-top] 0.1fr [header-bottom] 1fr [body-top] repeat(20,1fr) [bottom];
+  gap: 10px 10px
 }
+
+.header {
+  color:white;
+  grid-column: first /  last;
+  grid-row: header-top /header-bottom;
+  background-color: rgb(23, 16, 82);
+}
+
+.margin-left {
+  grid-column: first / menu-left-first ;
+  grid-row: header-bottom / bottom;
+  background-color: black;
+}
+
+.margin-right{
+    grid-column: menu-right-last / last ;
+    grid-row: header-bottom / bottom;
+    background-color: black;
+}
+
+.menu-left{
+  grid-column: menu-left-first/ menu-left-last;
+  grid-row: header-bottom / bottom;
+  background-color:rgb(23, 16, 82);
+}
+
+.menu-right{
+  grid-column: menu-right-first/ menu-right-last;
+  grid-row: header-bottom / bottom;
+  background-color:rgb(23, 16, 82);
+}
+
+.home-page-section{
+  grid-column: menu-left-last / menu-right-first;
+}
+
+
 
 .ParentBlock{
   border: 1 px solid black;
@@ -20,13 +62,11 @@
 
 
 .Name {
-  background-color: #1e4eac;
-  min-height: 20vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: calc(2px + 1vmin);
+  color: white;
+}
+
+.contacts{
   color: white;
 }
 
@@ -35,11 +75,7 @@
 }
 
 .App-portrait{
-    padding: 10px 10px;
-    background-color: blue;
-    max-width: 10%;
-    height: auto;
-    float: left;
+    max-width: 100%;
   }
 
 
