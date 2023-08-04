@@ -7,7 +7,6 @@ export default function App() {
   );
 }
 
-
 function HomePage(){
   return (
     <>
@@ -20,6 +19,7 @@ function HomePage(){
     <TextSection color="rgb(127,195,190)" title="Hi, I am Andreas" text={intro}/>
     <TextSection color="rgb(127,195,190)"  title="Programming projects"/>
     <TextSection color="rgb(127,195,190)"  title="Teaching"/>
+    <SoMeButtons buttons={myButtons}/>
     </div>
     </>
   )
@@ -42,23 +42,21 @@ function TextSection({color,title,text}){
   )
 }
 
-
-
-function Platforms(buttons){
-  let content=""
-
-
+function SoMeButtons({buttons}){
   return(
-    <div className="headerButtons">
-      buttons.forEach(button => {
-
-        
-      });
-
+    <div className="header-buttons">
+      {buttons.map((buttoni,i)=>{
+        return(
+        <a href={buttoni.url} className='header-button' role="button">
+          {buttoni.name}
+        </a>
+        )
+      }
+      )}
     </div>
   )
 }
-
+    
 function Header(){
   return (
   <div className='header'>
@@ -110,37 +108,6 @@ function Menu({menuClass}){
       </>
     )
   }
-
-}
-
-function Education(){
-  return(
-    <div className='Section'>
-      <h1> Uddannelse</h1>
-      <div className="ParrentBlock">
-        <div className='ChildBlock'>
-          <h2 >Software AAU </h2>
-          <h3> Projekter </h3>
-          <h3>Kurser </h3>
-        </div>
-        <div className='ChildBlock'>
-          <h2> 9/22 - Nu </h2>
-        </div>
-      </div>
-    </div>
-  )
-}
-
-function Description(){
-  return(
-    <div className='ChildBlock'>
-      <h2>Studerende på AAU Software</h2>
-      <p>
-        ...
-      </p>
-    </div>
-  )
-
 }
 
 function Portrait(){
@@ -157,7 +124,6 @@ function Portrait(){
   )
 }
 
-
 function Name(){
   return (
     <div className="Name">
@@ -165,11 +131,8 @@ function Name(){
         <h3>Andreas Valentin Pedersen</h3>
       </center>
     </div>
-
   )
 }
-
-
 
 
 // Content
@@ -177,3 +140,17 @@ function Name(){
 let intro=`Welcome to my web page. I am 30 years old and study Software at AAU. 
 My first educationen has resultet in four wonderfull years as a physics and maths teacher in the gymnasium. However, I chose to take a break from working and seek out
 an enviroenment where I could strengthen my knowledge of the huge IT technology complex which is impacting the world so much.`
+
+const myButtons=[
+  {
+    name: "LinkedIn",
+    url: "https://www.linkedin.com/in/andreas-valentin-pedersen/",
+    logoPath: ""
+  },
+  {
+    name: "GitHub",
+    url: "https://github.com/Andreas272" ,
+    logoPath: ""
+
+  }
+]
