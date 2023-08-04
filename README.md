@@ -1,3 +1,5 @@
+To see the code, go to the files App.js and App.css. To see the result, run "npm start" in the project directory. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
