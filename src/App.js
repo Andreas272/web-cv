@@ -1,5 +1,10 @@
 import './App.css';
-//import intro from './content/text.js'
+import { Header } from './components/Header';
+import { TextSection} from './components/TextSection';
+import { HeaderButtons } from './components/HeaderButtons';
+import { Menu } from './components/Menu';
+import { Margin } from './components/Margin';
+
 
 export default function App() {
   return (
@@ -7,10 +12,13 @@ export default function App() {
   );
 }
 
+/**
+ * @returns JSX code describing the home page of the web cv
+ */
 function HomePage(){
   return (
     <>
-    <div className="container">
+    <div className="container" > {/*container class sets up grid for division of page into segments*/}
     <Header />
     <Margin marginClass="margin-left" />
     <Margin marginClass="margin-right" />
@@ -19,121 +27,11 @@ function HomePage(){
     <TextSection color="rgb(127,195,190)" title="Hi, I am Andreas" text={intro}/>
     <TextSection color="rgb(127,195,190)"  title="Programming projects"/>
     <TextSection color="rgb(127,195,190)"  title="Teaching"/>
-    <SoMeButtons buttons={myButtons}/>
+    <HeaderButtons buttons={myButtons}/>
     </div>
     </>
   )
 }
-
-function Intro({title,text}){
-  return(
-    <>
-  <h2>{title}</h2>
-  <p>{text}</p>
-   </>
-  )
-}
-
-function TextSection({color,title,text}){
-  return(
-    <div className='home-page-section' style={{backgroundColor: color} }>
-      <Intro title={title} text={text} />
-    </div>
-  )
-}
-
-function SoMeButtons({buttons}){
-  return(
-    <div className="header-buttons">
-      {buttons.map((buttoni,i)=>{
-        return(
-        <a href={buttoni.url} className='header-button' role="button">
-          {buttoni.name}
-        </a>
-        )
-      }
-      )}
-    </div>
-  )
-}
-    
-function Header(){
-  return (
-  <div className='header'>
-    <center>
-      <h2 color="white">Work in Progress</h2>
-    </center>
-  </div>
-  )
-}
-
-function Margin({marginClass}){
-  return (
-  <div className={marginClass}>
-  </div>
-  )
-}
-
-function Contacts(){
-  return(
-    <div className='contacts'>
-      <p>
-        Andreas Valentin Pedersen <br />
-        andreasvalentin@hotmail.com <br />
-        +45 25 48 46 70 <br />
-      </p>
-    </div>
-  )
-}
-
-function Menu({menuClass}){
-  if(menuClass==="menu-left"){
-    return(
-      <>  
-      <div className={menuClass}>
-        <Portrait />
-        <Name />
-      </div>   
-      </>
-    )
-  }
-  if(menuClass==="menu-right"){
-    return(
-      <>  
-      <div className={menuClass}>
-        <center>
-          <Contacts />
-        </center>
-      </div>   
-      </>
-    )
-  }
-}
-
-function Portrait(){
-  return (
-    <div className='ChildBlock'>
-      <center>
-      <img 
-        className="App-portrait"
-        src="/images/portrait.jpg"
-        alt="Andreas Valentin Pedersen"
-      />
-      </center>
-    </div>
-  )
-}
-
-function Name(){
-  return (
-    <div className="Name">
-      <center>
-        <h3>Andreas Valentin Pedersen</h3>
-      </center>
-    </div>
-  )
-}
-
 
 // Content
 
