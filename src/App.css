@@ -11,7 +11,7 @@
 .header-buttons{
   grid-column: menu-right-first / menu-right-last;
   grid-row: header-top /header-bottom;
-  place-self: end;
+  place-self: center;
 }
 
 .container {
