@@ -1,9 +1,9 @@
 export function Portrait(){
     return (
-      <div className='ChildBlock'>
+      <div className='child-block'>
         <center>
         <img 
-          className="App-portrait"
+          className="app-portrait"
           src="/images/portrait.jpg"
           alt="Andreas Valentin Pedersen"
         />

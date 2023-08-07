@@ -1,6 +1,7 @@
 import { Contacts } from './Contacts';
 import { Portrait } from './Portrait';
 import { Name } from './Name';
+import Nav from "./Nav"
 
 /**
  * 
@@ -14,6 +15,7 @@ export function Menu({menuClass}){
         <div className={menuClass}>
           <Portrait />
           <Name />
+          <Nav />
         </div>   
         </>
       )

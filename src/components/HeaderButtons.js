@@ -5,10 +5,10 @@
 export function HeaderButtons({buttons}){
   return(
     <div className="header-buttons">
-      {buttons.map((buttoni,i)=>{
+      {buttons.map((buttoni)=>{
         return(
-        <a href={buttoni.url} className='header-button' role="button">
-          {buttoni.name}
+        <a href={buttoni.url} role="button">
+          <img className="header-button" src={buttoni.logoPath} alt="logo"/>
         </a>
         )
       }
