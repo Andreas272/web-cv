@@ -1,9 +1,7 @@
 export function Name(){
     return (
-      <div className="Name">
-        <center>
-          <h3>Andreas Valentin Pedersen</h3>
-        </center>
+      <div className="name">
+          <h2>Andreas Valentin Pedersen</h2>
       </div>
     )
   }

@@ -1,4 +1,3 @@
-import { Intro } from "./Intro"
 /**
  * @param {string} color of the background in the text section
  * @param {string} title of the section
@@ -8,7 +7,8 @@ import { Intro } from "./Intro"
 export function TextSection({color,title,text}){
     return(
       <div className='home-page-section' style={{backgroundColor: color} }>
-        <Intro title={title} text={text} />
+        <h2>{title}</h2>
+        <p>{text}</p>
       </div>
     )
   }
