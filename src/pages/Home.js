@@ -9,7 +9,7 @@ export function Home({themeColor}){
       <div className='main'>
       <TextSection color={themeColor} title="Hi, I am Andreas" text={intro}/>
       <TextSection color={themeColor}  title="Programming projects" text={projects}/>
-      <TextSection color={themeColor} title="Teaching" text={teaching}/>
+      <TextSection color={themeColor}  title="Long Section" text={loremIpsum}/>
       </div>
       </>
     )
@@ -26,7 +26,7 @@ The second project, Gridflix, was a proof of concept for a grid computing system
 Since existing application based based grid computing platforms such as BOINC has seen a decrease in participating workers, we suggest this browser based grid computing system 
 which also includes paying the workers with a subscription discount to motivate participation.`
 
-let teaching=`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+let loremIpsum=`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
  dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
