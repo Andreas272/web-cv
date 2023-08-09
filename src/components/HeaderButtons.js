@@ -7,7 +7,7 @@ export function HeaderButtons({buttons}){
     <div className="header-buttons">
       {buttons.map((buttoni)=>{
         return(
-        <a href={buttoni.url} role="button">
+        <a href={buttoni.url} role="button" style={{textAlign: 'center'}}>
           <img className="header-button" src={buttoni.logoPath} alt="logo"/>
         </a>
         )
