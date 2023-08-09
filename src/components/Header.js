@@ -1,9 +1,9 @@
 export function Header(){
     return (
     <div className='header'>
-      {/*<center>
-        <h4 color="white">Work in Progress</h4>
-    </center>*/}
+      {<center>
+       <p className="important-paragraph"><b color="white">Work in Progress</b></p> 
+    </center>}
     </div>
     )
   }

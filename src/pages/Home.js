@@ -6,9 +6,11 @@ import { TextSection} from '../components/TextSection';
 export function Home({themeColor}){
     return (
       <>
+      <div className='main'>
       <TextSection color={themeColor} title="Hi, I am Andreas" text={intro}/>
       <TextSection color={themeColor}  title="Programming projects" text={projects}/>
       <TextSection color={themeColor} title="Teaching" text={teaching}/>
+      </div>
       </>
     )
   }
@@ -24,38 +26,69 @@ The second project, Gridflix, was a proof of concept for a grid computing system
 Since existing application based based grid computing platforms such as BOINC has seen a decrease in participating workers, we suggest this browser based grid computing system 
 which also includes paying the workers with a subscription discount to motivate participation.`
 
-let teaching=`So far, I have worked on two semester projects during my Software degree. The first is a program
-written in C, where my project group and I made a program which could read a file containing travel times and stations in a train network and find all pairs shortest paths.
-The second project, Gridflix, was a proof of concept for a grid computing system which uses a host website such as Netflix to recruit workers. 
-Since existing application based based grid computing platforms such as BOINC has seen a decrease in participating workers, we suggest this browser based grid computing system 
-which also includes paying the workers with a subscription discount to motivate participation.
-So far, I have worked on two semester projects during my Software degree. The first is a program
-written in C, where my project group and I made a program which could read a file containing travel times and stations in a train network and find all pairs shortest paths.
-The second project, Gridflix, was a proof of concept for a grid computing system which uses a host website such as Netflix to recruit workers. 
-Since existing application based based grid computing platforms such as BOINC has seen a decrease in participating workers, we suggest this browser based grid computing system 
-which also includes paying the workers with a subscription discount to motivate participation.
-So far, I have worked on two semester projects during my Software degree. The first is a program
-written in C, where my project group and I made a program which could read a file containing travel times and stations in a train network and find all pairs shortest paths.
-The second project, Gridflix, was a proof of concept for a grid computing system which uses a host website such as Netflix to recruit workers. 
-Since existing application based based grid computing platforms such as BOINC has seen a decrease in participating workers, we suggest this browser based grid computing system 
-which also includes paying the workers with a subscription discount to motivate participation.
-So far, I have worked on two semester projects during my Software degree. The first is a program
-written in C, where my project group and I made a program which could read a file containing travel times and stations in a train network and find all pairs shortest paths.
-The second project, Gridflix, was a proof of concept for a grid computing system which uses a host website such as Netflix to recruit workers. 
-Since existing application based based grid computing platforms such as BOINC has seen a decrease in participating workers, we suggest this browser based grid computing system 
-which also includes paying the workers with a subscription discount to motivate participation.
-So far, I have worked on two semester projects during my Software degree. The first is a program
-written in C, where my project group and I made a program which could read a file containing travel times and stations in a train network and find all pairs shortest paths.
-The second project, Gridflix, was a proof of concept for a grid computing system which uses a host website such as Netflix to recruit workers. 
-Since existing application based based grid computing platforms such as BOINC has seen a decrease in participating workers, we suggest this browser based grid computing system 
-which also includes paying the workers with a subscription discount to motivate participation.
-So far, I have worked on two semester projects during my Software degree. The first is a program
-written in C, where my project group and I made a program which could read a file containing travel times and stations in a train network and find all pairs shortest paths.
-The second project, Gridflix, was a proof of concept for a grid computing system which uses a host website such as Netflix to recruit workers. 
-Since existing application based based grid computing platforms such as BOINC has seen a decrease in participating workers, we suggest this browser based grid computing system 
-which also includes paying the workers with a subscription discount to motivate participation.
-So far, I have worked on two semester projects during my Software degree. The first is a program
-written in C, where my project group and I made a program which could read a file containing travel times and stations in a train network and find all pairs shortest paths.
-The second project, Gridflix, was a proof of concept for a grid computing system which uses a host website such as Netflix to recruit workers. 
-Since existing application based based grid computing platforms such as BOINC has seen a decrease in participating workers, we suggest this browser based grid computing system 
-which also includes paying the workers with a subscription discount to motivate participation.  `
+let teaching=`Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+ exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+ dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+ anim id est laborum.
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+ exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+ dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+ anim id est laborum.
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+ exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+ dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+ anim id est laborum.
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+ exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+ dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+ anim id est laborum.
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+ exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+ dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+ anim id est laborum.
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+ exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+ dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+ anim id est laborum.
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+ exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+ dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+ anim id est laborum.
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+ exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+ dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+ anim id est laborum.
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+ exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+ dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+ anim id est laborum.
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+ exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+ dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+ anim id est laborum.
+ Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+ exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure 
+ dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+ Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit 
+ anim id est laborum.  `

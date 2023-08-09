@@ -6,7 +6,7 @@
  */
 export function TextSection({color,title,text}){
     return(
-      <div className='home-page-section' style={{backgroundColor: color} }>
+      <div className='text-section' style={{backgroundColor: color} }>
         <h2>{title}</h2>
         <p>{text}</p>
       </div>

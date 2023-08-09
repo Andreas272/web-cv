@@ -3,6 +3,7 @@ import { Header } from '../components/Header';
 import { HeaderButtons } from '../components/HeaderButtons';
 import { Menu } from '../components/Menu';
 import { Margin } from '../components/Margin';
+import { Footer } from "../components/Footer";
 
 /**
  * @returns JSX code describing the layout of the website which is independent on route. 
@@ -11,13 +12,14 @@ export function Layout(){
     return (
       <>
       <div className="container" > {/*container class sets up grid for division of page into segments*/}
-      <Header />
-      <Margin marginClass="margin-left" />
-      <Margin marginClass="margin-right" />
-      <Menu menuClass="menu-left" />
-      <Menu menuClass="menu-right" />
-      <HeaderButtons buttons={myButtons}/>
-      <Outlet/>
+        <Header />
+        <HeaderButtons buttons={myButtons}/>
+        <Margin marginClass="margin-left" />
+        <Margin marginClass="margin-right" />
+        <Menu menuClass="menu-left" />
+        <Menu menuClass="menu-right" />
+        <Footer />
+        <Outlet/>
       </div>
       </>
     )
