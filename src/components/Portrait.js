@@ -1,4 +1,5 @@
 import "./Menu.css"
+import { Name } from "./Name"
 
 export function Portrait(){
     return (

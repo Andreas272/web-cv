@@ -13,11 +13,15 @@
   }
 
   .child-block{
-    padding: 1rem 1rem;
-    float: left;
+    padding-top: 1rem ;
+    padding-right: 1rem ;
+    padding-left: 1rem ;
+
   }
   
   .name {
+    margin-top: 0em;
+    display:inline;
     margin-left: 6% ;
     font-size: 0.65em;
     color: white;
@@ -30,6 +34,7 @@
 
     .contacts{
         color: white;
+        max-width: 100%;
       }
       
   

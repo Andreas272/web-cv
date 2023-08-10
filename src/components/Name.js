@@ -1,7 +1,7 @@
 export function Name(){
     return (
       <div className="name">
-          <h2>Andreas Valentin Pedersen</h2>
+          <p style={{marginTop: "0px"}} className="important-paragraph">Andreas Valentin Pedersen</p>
       </div>
     )
   }
