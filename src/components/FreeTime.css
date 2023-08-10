@@ -1,0 +1,15 @@
+.content-container-flex {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.content-paragraph {
+    flex: 1;
+}
+
+.content-image {
+    width: 170px;
+}
