@@ -1,17 +1,21 @@
-import {Link} from "react-router-dom"
-import "./Nav.css"
+import { Link } from "react-router-dom";
+import "./Nav.css";
 
-export default function Nav(){
-    return(
-        <nav >
+export default function Nav() {
+    return (
+        <nav>
             <ul className="nav-menu">
                 <li>
-                    <Link to="/" className="link">Home</Link>
+                    <Link to="/" className="link">
+                        Home
+                    </Link>
                 </li>
                 <li>
-                    <Link to="/about" className="link">About me</Link>
+                    <Link to="/about" className="link">
+                        About me
+                    </Link>
                 </li>
             </ul>
         </nav>
-    )
+    );
 }
