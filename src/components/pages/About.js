@@ -1,5 +1,5 @@
-import { TextSection} from '../components/TextSection';
-import { Education } from '../components/Education';
+import { TextSection} from '../TextSection';
+import { Education } from '../Education';
 
 /**
  * @returns JSX code describing the about page of the web cv
@@ -8,11 +8,10 @@ export function About({themeColor}){
     return (
       <>
       <div className='main'>
-      <TextSection color={themeColor} title="Software student" text={resume}/>
-      <Education color={themeColor} title="Education" text={education}/>
-      <TextSection color={themeColor} title="Work Experience" text={work}/>
-      <TextSection color={themeColor} title="Free time" text={freeTime}/>
-
+        <TextSection color={themeColor} title="Software student" text={resume}/>
+        <Education color={themeColor} title="Education" text={education}/>
+        <TextSection color={themeColor} title="Work Experience" text={work}/>
+        <TextSection color={themeColor} title="Free time" text={freeTime}/>
       </div>
       </>
     )

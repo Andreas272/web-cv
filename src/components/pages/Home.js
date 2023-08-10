@@ -1,4 +1,4 @@
-import { TextSection} from '../components/TextSection';
+import { TextSection} from '../TextSection';
 
 /**
  * @returns JSX code describing the home page of the web cv

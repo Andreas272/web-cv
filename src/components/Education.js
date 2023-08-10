@@ -13,40 +13,32 @@ export function Education({color,title,text}){
             <p>
                 Projects
                 <ul>
-                <li>
-                    Gridflix:Engagement Oriented Browser Based Grid Computing Utilizing Established Consumer Websites
-                </li>
-                <dd>  
-                A proof-of-concept for browser based grid computing where workers are hired through 
-                a third-party website such as Netflix.com. The source code can be seen in P2_GridServer and P2_HostServer the groups <a href="https://github.com/Andreas272/Projekt-1-semester">GitHub</a>.
-                </dd>
-                <li>
-                    Tool for Planning of Train Speed Upgrades in a Railway Network (<a href="https://github.com/SW2-09">GitHub repository</a>)
-                </li>
-                <dd>
-                    The program, which is written in C, can read a text file describing train stations a travel times in a train network. 
-                    It then calculates all pairs shortest paths, and the average travel time in the network. The user can change travel times in the network
-                    and thereby see what effect a train speed upgrade of a specific connection has to the average travel time in the whole network. 
+                    <li>
+                        Gridflix:Engagement Oriented Browser Based Grid Computing Utilizing Established Consumer Websites
+                    </li>
+                    <dd>  
+                    A proof-of-concept for browser based grid computing where workers are hired through 
+                    a third-party website such as Netflix.com. The source code can be seen in P2_GridServer and P2_HostServer the groups <a href="https://github.com/Andreas272/Projekt-1-semester">GitHub</a>.
+                    </dd>
+                    <li>
+                        Tool for Planning of Train Speed Upgrades in a Railway Network (<a href="https://github.com/SW2-09">GitHub repository</a>)
+                    </li>
+                    <dd>
+                        The program, which is written in C, can read a text file describing train stations a travel times in a train network. 
+                        It then calculates all pairs shortest paths, and the average travel time in the network. The user can change travel times in the network
+                        and thereby see what effect a train speed upgrade of a specific connection has to the average travel time in the whole network. 
 
-                </dd>
+                    </dd>
                 </ul>
             </p>
             <p>
                 Courses
                 <ul>
-                <li>
-                    Internetwork and Web-programming
-                </li>
-                <li>
-                    Algorithms and Data-structures
-                </li>
-                <li>
-                    Imperativ Programming
-                </li>
+                    <li>Internetwork and Web-programming</li>
+                    <li>Algorithms and Data-structures</li>
+                    <li>Imperativ Programming</li>
                 </ul>
             </p>
-          
-    
       </div>
     )
   }

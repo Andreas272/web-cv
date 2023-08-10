@@ -1,7 +1,7 @@
 import {BrowserRouter, Routes, Route} from "react-router-dom"
-import {Layout} from "./pages/Layout"
-import {Home} from "./pages/Home"
-import {About} from "./pages/About"
+import {Layout} from "./components/pages/Layout"
+import {Home} from "./components/pages/Home"
+import {About} from "./components/pages/About"
 import './App.css';
 
 const themeColor="rgb(127,195,190)"

@@ -3,7 +3,7 @@ html { height: 100%; }
 body { min-height: 100%; }
 
 .container {
-  background-color: black;
+  /*background-color: black;*/
   display: grid;
   grid-template-columns: [first] 1fr [menu-left-first] 1fr [menu-left-last] 1fr  [body-left] 1fr 1fr [body-right] 1fr [menu-right-first] 1fr  [menu-right-last] 1fr  [last];
   grid-template-rows: [header-top] max-content [header-bottom] max-content [footer-top] 50px[footer-bottom];
@@ -50,13 +50,11 @@ body { min-height: 100%; }
 .margin-left {
   grid-column: first / menu-left-first ;
   grid-row: header-bottom / footer-top;
-  background-color: black;
 }
 
 .margin-right{
     grid-column: menu-right-last / last ;
     grid-row: header-bottom / footer-top;
-    background-color: black;
 }
 
 .menu-left{
@@ -131,6 +129,14 @@ p {
 
 h1 , h2 ,h3 ,h4 {
   margin: 10px;
+}
+
+.background{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: -1;
 }
 
 

@@ -1,9 +1,9 @@
 import {Outlet} from "react-router-dom"
-import { Header } from '../components/Header';
-import { HeaderButtons } from '../components/HeaderButtons';
-import { Menu } from '../components/Menu';
-import { Margin } from '../components/Margin';
-import { Footer } from "../components/Footer";
+import { Header } from '../Header';
+import { HeaderButtons } from '../HeaderButtons';
+import { Menu } from '../Menu';
+import { Margin } from '../Margin';
+import { Footer } from "../Footer";
 
 /**
  * @returns JSX code describing the layout of the website which is independent on route. 
@@ -12,6 +12,7 @@ export function Layout(){
     return (
       <>
       <div className="container" > {/*container class sets up grid for division of page into segments*/}
+        <img src="./images/background.jpg" className="background"></img>
         <Header />
         <HeaderButtons buttons={myButtons}/>
         <Margin marginClass="margin-left" />
