@@ -1,0 +1,35 @@
+.menu-left{
+    border-radius: 5px;
+    grid-column: menu-left-first/ menu-left-last;
+    grid-row: header-bottom / footer-top;
+    background-color:rgb(23, 16, 82);
+  }
+  
+  .menu-right{
+    border-radius: 5px;
+    grid-column: menu-right-first/ menu-right-last;
+    grid-row: header-bottom / footer-top;
+    background-color:rgb(23, 16, 82);
+  }
+
+  .child-block{
+    padding: 1rem 1rem;
+    float: left;
+  }
+  
+  .name {
+    margin-left: 6% ;
+    font-size: 0.65em;
+    color: white;
+  }
+
+  .portrait{
+    border-radius: 5px;
+    max-width: 100%;
+    }
+
+    .contacts{
+        color: white;
+      }
+      
+  

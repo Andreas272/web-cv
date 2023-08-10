@@ -1,0 +1,9 @@
+.footer{
+    border-radius: 5px;
+    color:white;
+    grid-column: first /  last;
+    grid-row: footer-top /footer-bottom;
+    background-color: rgb(23, 16, 82);
+  
+  }
+  

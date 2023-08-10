@@ -1,3 +1,5 @@
+import "./Education.css"
+
 /**
  * @param {string} color of the background in the text section
  * @param {string} title of the section
