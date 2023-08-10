@@ -1,9 +1,5 @@
-html { height: 100%; }
-
-body { min-height: 100%; }
 
 .container {
-  /*background-color: black;*/
   display: grid;
   grid-template-columns: [first] 1fr [menu-left-first] 1fr [menu-left-last] 1fr  [body-left] 1fr 1fr [body-right] 1fr [menu-right-first] 1fr  [menu-right-last] 1fr  [last];
   grid-template-rows: [header-top] max-content [header-bottom] max-content [footer-top] 50px[footer-bottom];
@@ -17,80 +13,11 @@ body { min-height: 100%; }
   gap: 8px 8px 
 }
 
-.header {
-  border-radius: 5px;
-  color:white;
-  grid-column: first /  last;
-  grid-row: header-top /header-bottom;
-  background-color: rgb(23, 16, 82);
-}
-
-.header-button{
-  max-width: 1.2rem;
-  padding: 0.5em;
-  margin-right: 8px;
-}
-
-.header-buttons{
-  display:flex;
-  grid-column: menu-right-first / menu-right-last;
-  grid-row: header-top /header-bottom;
-  place-self: end;
-}
-
-.footer{
-  border-radius: 5px;
-  color:white;
-  grid-column: first /  last;
-  grid-row: footer-top /footer-bottom;
-  background-color: rgb(23, 16, 82);
-
-}
-
-.margin-left {
-  grid-column: first / menu-left-first ;
-  grid-row: header-bottom / footer-top;
-}
-
-.margin-right{
-    grid-column: menu-right-last / last ;
-    grid-row: header-bottom / footer-top;
-}
-
-.menu-left{
-  border-radius: 5px;
-  grid-column: menu-left-first/ menu-left-last;
-  grid-row: header-bottom / footer-top;
-  background-color:rgb(23, 16, 82);
-}
-
-.menu-right{
-  border-radius: 5px;
-  grid-column: menu-right-first/ menu-right-last;
-  grid-row: header-bottom / footer-top;
-  background-color:rgb(23, 16, 82);
-}
 
 .text-section{
   border-radius: 5px;
 }
 
-.child-block{
-  padding: 1rem 1rem;
-  float: left;
-}
-
-
-.name {
-  margin-left: 6% ;
-  font-size: 0.65em;
-  color: white;
-}
-
-.nav-menu{
-  grid-column: menu-left-first/ menu-left-last;
-  color:#fff
-}
 
 .link{
   color: #fff;
@@ -103,25 +30,9 @@ body { min-height: 100%; }
   color: darkgray;
 }
 
-.contacts{
-  color: white;
-}
-
-.app-link {
-  color: #61dafb;
-}
-
-.app-portrait{
-  border-radius: 5px;
-  max-width: 100%;
-  }
-
 .important-paragraph{
   font-size: 17px;
 }
-
-.split-para      { display:block;margin:10px;}
-.split-para span { display:block;float:right;width:20%;margin-left:10px;}
 
 p {
   margin:10px

@@ -2,6 +2,7 @@ import { Contacts } from './Contacts';
 import { Portrait } from './Portrait';
 import { Name } from './Name';
 import Nav from "./Nav"
+import "./Menu.css"
 
 /**
  * 

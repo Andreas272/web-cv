@@ -1,0 +1,9 @@
+.margin-left {
+    grid-column: first / menu-left-first ;
+    grid-row: header-bottom / footer-top;
+  }
+  
+  .margin-right{
+      grid-column: menu-right-last / last ;
+      grid-row: header-bottom / footer-top;
+  }

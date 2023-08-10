@@ -1,3 +1,5 @@
+import './Header.css';
+
 /**
  * @param {Array} buttons: array of button objects 
  * @returns JSX describing a sequennce of buttons located in the header

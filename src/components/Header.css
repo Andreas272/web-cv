@@ -1,0 +1,21 @@
+.header {
+    border-radius: 5px;
+    color:white;
+    grid-column: first /  last;
+    grid-row: header-top /header-bottom;
+    background-color: rgb(23, 16, 82);
+  }
+  
+  .header-button{
+    max-width: 1.2rem;
+    padding: 0.5em;
+    margin-right: 8px;
+  }
+  
+  .header-buttons{
+    display:flex;
+    grid-column: menu-right-first / menu-right-last;
+    grid-row: header-top /header-bottom;
+    place-self: end;
+  }
+  
