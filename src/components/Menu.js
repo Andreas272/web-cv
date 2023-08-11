@@ -1,5 +1,4 @@
 import { Contacts } from "./Contacts";
-import Nav from "./Nav";
 import "./Menu.css";
 
 /**

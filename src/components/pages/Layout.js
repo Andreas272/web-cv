@@ -4,7 +4,7 @@ import { HeaderButtons } from '../HeaderButtons';
 import { Menu } from '../Menu';
 import { Margin } from '../Margin';
 import { Footer } from "../Footer";
-import Nav from "../Nav"
+import NavBar from "../NavBar"
 
 /**
  * @returns JSX code describing the layout of the website which is independent on route. 
@@ -12,10 +12,9 @@ import Nav from "../Nav"
 export function Layout(){
     return (
       <>
-        <Nav />
+        <NavBar />
       <div className="container" > {/*container class sets up grid for division of page into segments*/}
         <img src="./images/background.jpg" className="background"></img>
-        <Header />
         <HeaderButtons buttons={myButtons}/>
         <Margin marginClass="margin-left" />
         <Margin marginClass="margin-right" />

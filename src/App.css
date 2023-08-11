@@ -1,4 +1,5 @@
 *{
+    font-family: 'Sora', sans-serif;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -7,7 +8,7 @@
 .container {
     display: grid;
     grid-template-columns: [first] 1fr [menu-left-first] 1.5fr [menu-left-last] repeat(6, 1fr) [menu-right-first] 1.5fr [menu-right-last] 1fr [last];
-    grid-template-rows: [header-top] max-content [header-bottom] max-content [footer-top] 200px[footer-bottom];
+    grid-template-rows:[header-bottom] max-content [footer-top] 200px[footer-bottom];
     gap: 12px 12px;
 }
 
