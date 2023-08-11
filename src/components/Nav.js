@@ -3,6 +3,7 @@ import "./Nav.css";
 
 export default function Nav() {
     return (
+        <div>
         <nav>
             <ul className="nav-menu">
                 <li>
@@ -17,5 +18,6 @@ export default function Nav() {
                 </li>
             </ul>
         </nav>
+        </div>
     );
 }

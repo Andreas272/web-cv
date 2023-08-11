@@ -13,7 +13,6 @@ export function Menu({ menuClass }) {
             <>
                 <div className={menuClass}>
                     <Portrait />
-                    <Nav />
                 </div>
             </>
         );
