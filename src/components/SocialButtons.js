@@ -1,12 +1,12 @@
-import "./Header.css";
+import "./SocialButtons.css";
 
 /**
  * @param {Array} buttons: array of button objects
  * @returns JSX describing a sequennce of buttons located in the header
  */
-export function HeaderButtons({ buttons }) {
+export default function SocialButtons({ buttons }) {
     return (
-        <div className="header-buttons">
+        <div className="social-buttons">
             {buttons.map((buttoni) => {
                 return (
                     <a href={buttoni.url} role="button" style={{ textAlign: "center" }}>

@@ -1,5 +1,5 @@
-import { Contacts } from "./Contacts";
 import "./Menu.css";
+import { SocialButtons } from "./SocialButtons";
 
 /**
  *
@@ -11,7 +11,9 @@ export function Menu({ menuClass }) {
         return (
             <>
                 <div className={menuClass}>
+                <div className="child-block">
                     <Portrait />
+                </div>
                 </div>
             </>
         );
@@ -20,9 +22,7 @@ export function Menu({ menuClass }) {
         return (
             <>
                 <div className={menuClass}>
-                    <center>
-                        <Contacts />
-                    </center>
+                    <center></center>
                 </div>
             </>
         );
@@ -30,11 +30,23 @@ export function Menu({ menuClass }) {
 }
 
 function Portrait() {
-  return (
-      <div className="child-block">
-          <center>
-              <img className="portrait" src="/images/portrait.jpg" alt="Andreas Valentin Pedersen" />
-          </center>
-      </div>
-  );
+    return (
+            <center>
+                <img className="portrait" src="/images/portrait.jpg" alt="Andreas Valentin Pedersen" />
+            </center>
+    );
 }
+
+function Contacts() {
+    return (
+        <div className="contacts">
+            <p>
+                Andreas Valentin Pedersen <br></br>
+                andreasvalentin<wbr></wbr>@hotmail.com <br></br>
+                +45 25 48 46 70 <br></br>
+            </p>
+        </div>
+    );
+}
+
+

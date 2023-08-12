@@ -3,7 +3,7 @@
     grid-column: menu-left-first/ menu-left-last;
     grid-row: header-bottom / footer-top;
     background-color: rgb(65, 65, 65);
-    /*background-color:rgb(23, 16, 82);*/
+    display: grid;
 }
 
 .menu-right {
@@ -11,6 +11,7 @@
     grid-column: menu-right-first/ menu-right-last;
     grid-row: header-bottom / footer-top;
     background-color: rgb(65, 65, 65);
+    display: grid;
 }
 
 .child-block {
@@ -33,6 +34,13 @@
 }
 
 .contacts {
+    font-size: 2rem;
     color: white;
     max-width: 100%;
 }
+
+.contacts >p {
+    font-size: 1rem;
+  
+}
+
