@@ -1,4 +1,4 @@
-import "./WorkExperience.css";
+import "./TextSection.css"
 
 /**
  * @param {string} color of the background in the text section
@@ -9,7 +9,7 @@ import "./WorkExperience.css";
 export function WorkExperience({ color, title, text }) {
     return (
         <div className="text-section" style={{ backgroundColor: color }}>
-            <div className="content-container-work">
+            <div className="text-section-item">
                 <h2>{title}</h2>
                 <p>
                     I had the pleaseure of teaching Mathemathics and Physics at Sønderborg Statsskole from 2018 to 2022.

@@ -14,11 +14,10 @@
 .navbar-logo {
     grid-column: menu-left-first / menu-left-last;
     color: #fff;
+    align-self: center;
     justify-self: end;
-    margin-left: 20px;
-    cursor: pointer;
     text-decoration: none;
-    font-size: 2rem;
+    font-size: 1.5rem;
     align-items: center;
 }
 

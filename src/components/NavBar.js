@@ -6,9 +6,9 @@ export default function NavBar({ buttons }) {
     return (
         <>
             <nav className="navbar">
-                <Link to="/" className="navbar-logo">
+                <p className="navbar-logo">
                     Work in Progress
-                </Link>
+                </p>
                 <ul className="nav-menu">
                     <li className="nav-item">
                         <Link to="/" className="nav-links">

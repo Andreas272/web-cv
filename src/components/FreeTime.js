@@ -1,4 +1,5 @@
 import "./FreeTime.css";
+import "./TextSection.css";
 
 /**
  * @param {string} color of the background in the text section
@@ -9,9 +10,13 @@ import "./FreeTime.css";
 export function FreeTime({ color, title, text }) {
     return (
         <div className="text-section" style={{ backgroundColor: color }}>
-            <h2>{title}</h2>
-            <div className="content-container-flex">
-                <p className="content-paragraph">{text}</p>
+            <div className="text-section-title">
+                <h2>{title}</h2>
+            </div>
+            <div className="text-section-item" style={{ gridColumn: "1 / 6"}}>
+                {text}
+            </div>
+            <div className="text-section-item" style={{ gridColumn: "6 / 8"}}>
                 <img className="content-image" src="./images/sejlads_regn.jpg" alt="Sejlads i regn"></img>
             </div>
         </div>
