@@ -1,3 +1,4 @@
+import   HomeIntro  from "../HomeIntro";
 import { TextSection } from "../TextSection";
 import "./Layout.css"
 
@@ -8,7 +9,7 @@ export function Home({ themeColor }) {
     return (
         <>
             <div className="main">
-                <TextSection color={themeColor} title="Hi, I am Andreas" text={intro} coloumnStart={1} coloumnEnd={6}/>
+                <HomeIntro color={themeColor} title="Hi, I am Andreas" text={intro}/>
                 <TextSection color={themeColor} title="Programming projects" text={projects} coloumnStart={1} coloumnEnd={8}/>
                 <TextSection color={themeColor} title="Long Section" text={loremIpsum} coloumnStart={1} coloumnEnd={8}/>
             </div>
