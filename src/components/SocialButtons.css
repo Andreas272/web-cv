@@ -1,0 +1,12 @@
+.social-button {
+    max-width: 2.5rem;
+    padding: 0.5em;
+    margin-right: 8px;
+}
+
+.social-buttons {
+    display: flex;
+    grid-column: menu-right-first / menu-right-last;
+    justify-self: end;
+    align-self: center;
+}

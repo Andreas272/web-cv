@@ -9,7 +9,7 @@ export function About({themeColor}){
     return (
       <>
       <div className='main'>
-        <TextSection color={themeColor} title="Software Student" text={resume}/>
+        <TextSection color={themeColor} title="Software Student" text={resume} coloumnStart={1} coloumnEnd={8}/>
         <Education color={themeColor} title="Education" text={education}/>
         <WorkExperience color={themeColor} title="Work Experience"/>
         <FreeTime color={themeColor} title="Sailing" text={freeTime}/>
