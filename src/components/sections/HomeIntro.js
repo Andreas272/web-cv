@@ -1,5 +1,5 @@
 import "./TextSection.css"
-import LinkButton from "./LinkButton";
+import LinkButton from "../LinkButton";
 
 /**
  * @param {string} color of the background in the text section

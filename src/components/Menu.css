@@ -3,6 +3,7 @@
     grid-column: menu-left-first/ menu-left-last;
     grid-row: header-bottom / footer-top;
     background-color: rgb(65, 65, 65);
+    color: white;
     display: grid;
 }
 
@@ -11,8 +12,32 @@
     grid-column: menu-right-first/ menu-right-last;
     grid-row: header-bottom / footer-top;
     background-color: rgb(65, 65, 65);
-    display: grid;
+    color: white;
+    padding: 5px;
 }
+
+.skill-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+    color: white;
+    padding-top: 0px;
+}
+
+.skill{
+    grid-column: 1 / 4;
+}
+
+.profficiency{
+    grid-column: 2 / 4;
+    justify-self: center;
+}
+
+.looking-for-job{
+    font-size: 1rem;
+}
+
+
 
 .child-block {
     padding-top: 1rem;
@@ -43,4 +68,5 @@
     font-size: 1rem;
   
 }
+
 
