@@ -1,4 +1,5 @@
 import { TextSection } from "../TextSection";
+import "./Layout.css"
 
 /**
  * @returns JSX code describing the home page of the web cv
@@ -7,9 +8,9 @@ export function Home({ themeColor }) {
     return (
         <>
             <div className="main">
-                <TextSection color={themeColor} title="Hi, I am Andreas" text={intro} />
-                <TextSection color={themeColor} title="Programming projects" text={projects} />
-                <TextSection color={themeColor} title="Long Section" text={loremIpsum} />
+                <TextSection color={themeColor} title="Hi, I am Andreas" text={intro} coloumnStart={1} coloumnEnd={6}/>
+                <TextSection color={themeColor} title="Programming projects" text={projects} coloumnStart={1} coloumnEnd={8}/>
+                <TextSection color={themeColor} title="Long Section" text={loremIpsum} coloumnStart={1} coloumnEnd={8}/>
             </div>
         </>
     );

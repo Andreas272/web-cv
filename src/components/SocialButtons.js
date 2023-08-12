@@ -10,7 +10,7 @@ export default function SocialButtons({ buttons }) {
             {buttons.map((buttoni) => {
                 return (
                     <a href={buttoni.url} role="button" style={{ textAlign: "center" }}>
-                        <img className="header-button" src={buttoni.logoPath} alt="logo" />
+                        <img className="social-button" src={buttoni.logoPath} alt="logo" />
                     </a>
                 );
             })}

@@ -3,6 +3,7 @@ import { Menu } from "../Menu";
 import { Margin } from "../Margin";
 import { Footer } from "../Footer";
 import NavBar from "../NavBar";
+import "./Layout.css"
 
 /**
  * @returns JSX code describing the layout of the website which is independent on route.
