@@ -1,7 +1,7 @@
-import { TextSection} from '../TextSection';
-import { Education } from '../Education';
-import { FreeTime } from '../FreeTime';
-import { WorkExperience } from '../WorkExperience';
+import { TextSection} from '../sections/TextSection';
+import { Education } from '../sections/Education';
+import { FreeTime } from '../sections/FreeTime';
+import { WorkExperience } from '../sections/WorkExperience';
 /**
  * @returns JSX code describing the about page of the web cv
  */

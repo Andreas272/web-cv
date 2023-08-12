@@ -1,5 +1,4 @@
 import "./Menu.css";
-import { SocialButtons } from "./SocialButtons";
 
 /**
  *
@@ -11,9 +10,10 @@ export function Menu({ menuClass }) {
         return (
             <>
                 <div className={menuClass}>
-                <div className="child-block">
-                    <Portrait />
-                </div>
+                    <div className="child-block">
+                        <Portrait />
+                        <LoookingForJob />
+                    </div>
                 </div>
             </>
         );
@@ -22,7 +22,7 @@ export function Menu({ menuClass }) {
         return (
             <>
                 <div className={menuClass}>
-                    <center></center>
+                    <Skills skillsArray={skillsArray} />
                 </div>
             </>
         );
@@ -31,22 +31,45 @@ export function Menu({ menuClass }) {
 
 function Portrait() {
     return (
-            <center>
-                <img className="portrait" src="/images/portrait.jpg" alt="Andreas Valentin Pedersen" />
-            </center>
+        <center>
+            <img className="portrait" src="/images/portrait.jpg" alt="Andreas Valentin Pedersen" />
+        </center>
     );
 }
 
-function Contacts() {
+function Skills({ skillsArray }) {
     return (
-        <div className="contacts">
-            <p>
-                Andreas Valentin Pedersen <br></br>
-                andreasvalentin<wbr></wbr>@hotmail.com <br></br>
-                +45 25 48 46 70 <br></br>
-            </p>
-        </div>
+        <>
+            <h3>Skills</h3>
+            <div className="skill-list">
+                {skillsArray.map((element) => {
+                    return (
+                        <>
+                            <div className="skill">{element.skill}</div>
+                        </>
+                    );
+                })}
+            </div>
+        </>
     );
 }
 
+const skillsArray = [
+    { skill: "C", profficiency: "competent" },
+    { skill: "JavaScript (Node.js, React)", profficiency: "competent" },
+    { skill: "HTML/CSS", profficiency: "competent" },
+    { skill: "Pyhton (NumPy)", profficiency: "beginner" },
+    { skill: "MatLab", profficiency: "competent" },
+];
 
+function LoookingForJob({ skillsArray }) {
+    return (
+        <>
+            <h3>Looking For Job</h3>
+            <div className="looking-for-job">
+                I am looking for a student job in Aalborg while I finish my  bachelordegree in computer sciene. 
+                I plan to settle down near Aalborg when I finish the program in june 2025. 
+            </div>
+        </>
+    );
+}
