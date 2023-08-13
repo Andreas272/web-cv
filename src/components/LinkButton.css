@@ -38,5 +38,5 @@
 .button--medium:hover {
     background: #fff;
     color: #242424;
-    transition: 500ms ease-out;
+    transition: 500ms ease-;
 }

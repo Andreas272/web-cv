@@ -1,0 +1,38 @@
+.project-info-container{
+    place-self: center;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    gap:8px;
+    width: 100%;
+}
+
+.intro{
+    padding: 10px;
+    border-radius: 5px;
+    grid-column: 1 /8;
+}
+
+.abstract{
+    padding: 10px;
+    grid-column: 1 /3;
+    border-radius: 5px;
+}
+
+.project-design{
+    padding: 10px;
+    border-radius: 5px;
+    grid-column: 3 / 8; 
+    display: grid;
+}
+
+.image-system-design{
+    justify-self: center;
+    width: 90%;
+    border-radius: 10px;
+}
+
+.image-system-design-large{
+    justify-self: center;
+    height: 1000px;
+    border-radius: 10px;
+}

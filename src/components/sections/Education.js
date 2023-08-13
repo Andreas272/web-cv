@@ -27,11 +27,11 @@ export function Education({ color, title, text }) {
                             A proof-of-concept for browser based grid computing where workers are hired through a
                             third-party website such as Netflix.com. The source code can be seen in P2_GridServer and
                             P2_HostServer the groups{" "}
-                            <a href="https://github.com/Andreas272/Projekt-1-semester">GitHub</a>.
+                            <a href="https://github.com/SW2-09">GitHub</a>.
                         </dd>
                         <li>
                             Tool for Planning of Train Speed Upgrades in a Railway Network (
-                            <a href="https://github.com/SW2-09">GitHub repository</a>)
+                            <a href="https://github.com/Andreas272/Projekt-1-semester">GitHub repository</a>)
                         </li>
                         <dd>
                             The program, which is written in C, can read a text file describing train stations a travel

@@ -18,8 +18,6 @@ export function Layout() {
                 <img src="./images/background.jpg" className="background"></img>
                 <Margin marginClass="margin-left" />
                 <Margin marginClass="margin-right" />
-                <Menu menuClass="menu-left" />
-                <Menu menuClass="menu-right" />
                 <Footer />
                 <Outlet />
             </div>

@@ -27,7 +27,7 @@
 
 
   .cards__item__img {
-    height: 100px;
+    height: 160px;
     min-width: 100%;
     justify-self: stretch;
     transition: all 0.2s linear;
@@ -35,14 +35,11 @@
 
   .cards__item__title__container{
     grid-column: 1 / 13;
-    padding: 10px;
-    color: black;
+    padding: 20px;
+    padding-top: 30px;
     font-weight: 700;
-  }
-
-  .cards__item__title {
-    color: #252e48;
-    font-size: 18px;
+    color: #242424;
+    font-size: 23px;
   }
 
   .cards__item__category {
