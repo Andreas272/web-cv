@@ -1,5 +1,5 @@
 import   HomeIntro  from "../sections/HomeIntro";
-import { TextSection } from "../sections/TextSection";
+import HomeProjects from "../sections/HomeProjects";
 import "./Layout.css"
 
 /**
@@ -10,7 +10,7 @@ export function Home({ themeColor }) {
         <>
             <div className="main">
                 <HomeIntro color={themeColor} title="Hi, I am Andreas" text={intro}/>
-                <TextSection color={themeColor} title="Projects" text={projects} coloumnStart={1} coloumnEnd={8}/>
+                <HomeProjects color={themeColor} title="Projects" text={projects} />
             </div>
         </>
     );
