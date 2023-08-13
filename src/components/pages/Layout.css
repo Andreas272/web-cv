@@ -1,12 +1,19 @@
 .container {
     display: grid;
     grid-template-columns: [first] 1fr [menu-left-first] 1.5fr [menu-left-last] repeat(6, 1fr) [menu-right-first] 1.5fr [menu-right-last] 1fr [last];
-    grid-template-rows:[header-bottom] max-content [footer-top] 300px[footer-bottom];
+    grid-template-rows:[header-bottom] max-content [footer-top] 400px[footer-bottom];
     gap: 12px 12px;
 }
 
 .main {
     grid-column: menu-left-last / menu-right-first;
+    grid-row: header-bottom / footer-top;
+    display: grid;
+    gap: 12px 12px
+}
+
+.main-project-page {
+    grid-column: menu-left-first / menu-right-last;
     grid-row: header-bottom / footer-top;
     display: grid;
     gap: 12px 12px

@@ -5,7 +5,7 @@ import "./Menu.css";
  * @param {string} menuClass describes if where instances of the componenent is placed
  * @returns JSX code describing either the left or right menu
  */
-export function Menu({ menuClass }) {
+export default function Menu({ menuClass }) {
     if (menuClass === "menu-left") {
         return (
             <>
@@ -22,7 +22,9 @@ export function Menu({ menuClass }) {
         return (
             <>
                 <div className={menuClass}>
-                    <Skills skillsArray={skillsArray} />
+                    <div className="child-block">
+                        <Skills skillsArray={skillsArray} />
+                    </div>
                 </div>
             </>
         );
@@ -62,13 +64,14 @@ const skillsArray = [
     { skill: "MatLab", profficiency: "competent" },
 ];
 
-function LoookingForJob({ skillsArray }) {
+function LoookingForJob() {
     return (
         <>
             <h3>Looking For Job</h3>
             <div className="looking-for-job">
-                I am looking for a student job in Aalborg while I finish my  bachelordegree in computer sciene. 
-                I plan to settle down near Aalborg when I finish the program in june 2025. 
+                I am looking for a student job in Aalborg while I finish my bachelordegree in
+                computer sciene. I plan to settle down near Aalborg when I finish the program in
+                june 2025.
             </div>
         </>
     );
