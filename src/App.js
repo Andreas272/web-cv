@@ -1,12 +1,13 @@
-import {  Routes, Route } from "react-router-dom";
-import { BrowserRouter as Router} from "react-router-dom";
+import "./App.css";
 import { Layout } from "./components/pages/Layout";
 import { Home } from "./components/pages/Home";
 import { About } from "./components/pages/About";
-import "./App.css";
 import { Gridflix } from "./components/pages/Gridflix";
-import {Railway} from "./components/pages/Railway";
+import { Railway } from "./components/pages/Railway";
 import ThisProject from "./components/pages/ThisProject";
+
+import { Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 
 const themeColor = "#F8F9F9";
 
