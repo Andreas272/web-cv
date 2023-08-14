@@ -1,4 +1,4 @@
-.menu-left {
+.sidebar-left {
     border-radius: 5px;
     grid-column: menu-left-first/ menu-left-last;
     grid-row: header-bottom / footer-top;
@@ -7,7 +7,7 @@
     display: grid;
 }
 
-.menu-right {
+.sidebar-right {
     border-radius: 5px;
     grid-column: menu-right-first/ menu-right-last;
     grid-row: header-bottom / footer-top;
