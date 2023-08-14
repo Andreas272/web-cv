@@ -20,9 +20,11 @@ export function Home({ themeColor }) {
 }
 
 // Content
-let intro = `Welcome to my web page. I am 30 years old and I study Software at AAU. 
-My first educationen has resultet in four wonderfull years as a physics and maths teacher in the gymnasium. However, I chose to take a break from working and seek out
-an enviroenment where I could strengthen my knowledge of the huge IT technology complex which is impacting the world so much.`;
+let intro = `Welcome to my website. I am 30 years old and I study Software at AAU. 
+This website is my first personal project, and I plan to showcase future projects here. 
+For now, you can read about my semester projects at AAU and this website below. 
+If you dont know me, you can read more about me in the About-section.  
+`;
 
 let projects = `This website is my first personal project. In relation to my studies, I have been a part of two exciting and instructive semester projects.
 The first project about railway optimization is a program

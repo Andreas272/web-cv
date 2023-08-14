@@ -1,4 +1,4 @@
-import "./TextSection.css"
+import "./TextSection.css";
 
 /**
  * @param {string} color of the background in the text section
@@ -9,7 +9,10 @@ import "./TextSection.css"
 export function TextSection({ color, title, text, coloumnStart, coloumnEnd }) {
     return (
         <div className="text-section" style={{ backgroundColor: color }}>
-            <div className="text-section-item" style={{ gridColumn: `${coloumnStart} / ${coloumnEnd}` }}>
+            <div
+                className="text-section-item"
+                style={{ gridColumn: `${coloumnStart} / ${coloumnEnd}` }}
+            >
                 <h2>{title}</h2>
                 <p>{text}</p>
             </div>

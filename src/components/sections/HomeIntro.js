@@ -1,4 +1,4 @@
-import "./TextSection.css"
+import "./TextSection.css";
 import LinkButton from "../LinkButton";
 
 /**
@@ -13,11 +13,16 @@ export default function HomeIntro({ color, title, text }) {
             <div className="text-section-title">
                 <h2>{title}</h2>
             </div>
-            <div className="text-section-item" style={{ gridColumn: "1 / 6"}}>
+            <div className="text-section-item" style={{ gridColumn: "1 / 6" }}>
                 {text}
             </div>
-            <div className="text-section-item" style={{ gridColumn: "6 / 8", placeSelf: "center"}}>
-                <LinkButton route="/About" children="Read more" buttonStyle="button--primary" buttonSize="button--large" />
+            <div className="text-section-item" style={{ gridColumn: "6 / 8", placeSelf: "center" }}>
+                <LinkButton
+                    route="/About"
+                    children="Read more"
+                    buttonStyle="button--primary"
+                    buttonSize="button--large"
+                />
             </div>
         </div>
     );

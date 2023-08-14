@@ -34,7 +34,7 @@ export default function Menu({ menuClass }) {
 function Portrait() {
     return (
         <center>
-            <img className="portrait" src="/images/portrait.jpg" alt="Andreas Valentin Pedersen" />
+            <img className="portrait" src="images/portrait.jpg" alt="Andreas Valentin Pedersen" />
         </center>
     );
 }

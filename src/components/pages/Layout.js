@@ -29,11 +29,11 @@ const mySocialButtons = [
   {
       name: "LinkedIn",
       url: "https://www.linkedin.com/in/andreas-valentin-pedersen/",
-      logoPath: "/images/In-White-128.png",
+      logoPath: "images/InWhite128.png",
   },
   {
       name: "GitHub",
       url: "https://github.com/Andreas272",
-      logoPath: "/images/github-mark-white.png",
+      logoPath: "images/github-mark-white.png",
   },
 ];
