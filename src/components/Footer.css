@@ -3,6 +3,5 @@
     color: white;
     grid-column: first / last;
     grid-row: footer-top / footer-bottom;
-    background-color: rgb(65, 65, 65);
+    background: linear-gradient(90deg, rgb(46, 45, 45) 0%, rgb(35, 35, 35) 100%);
 }
-

@@ -1,4 +1,4 @@
-import "./TextSection.css"
+import "./AboutIntro.css"
 
 /**
  * @param {string} color of the background in the text section
@@ -6,7 +6,7 @@ import "./TextSection.css"
  * @param {string} text of the section's body
  * @returns JSX code describing a text section
  */
-export function WorkExperience({ color, title, text }) {
+ function AboutWorkExperience({ color, title, text }) {
     return (
         <div className="text-section" style={{ backgroundColor: color }}>
             <div className="text-section-item">
@@ -26,3 +26,5 @@ export function WorkExperience({ color, title, text }) {
         </div>
     );
 }
+
+export default AboutWorkExperience

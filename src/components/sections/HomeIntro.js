@@ -1,4 +1,4 @@
-import "./TextSection.css";
+import "./AboutIntro.css";
 import LinkButton from "../LinkButton";
 
 /**
@@ -7,7 +7,7 @@ import LinkButton from "../LinkButton";
  * @param {string} text of the section's body
  * @returns JSX code describing a text section
  */
-export default function HomeIntro({ color, title, text }) {
+function HomeIntro({ color, title, text }) {
     return (
         <div className="text-section" style={{ backgroundColor: color }}>
             <div className="text-section-title">
@@ -27,3 +27,11 @@ export default function HomeIntro({ color, title, text }) {
         </div>
     );
 }
+
+let introText = `Welcome to my website. I am 30 years old and I study Software at AAU. 
+This website is my first personal project, and I plan to showcase future projects here. 
+For now, you can read about my semester projects at AAU and this website below. 
+If you dont know me, you can read more about me in the About-section.  
+`;
+
+export{HomeIntro, introText}

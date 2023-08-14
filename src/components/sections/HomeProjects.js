@@ -1,4 +1,4 @@
-import "./TextSection.css";
+import "./AboutIntro.css";
 import Cards from "../Cards";
 
 /**
@@ -7,7 +7,7 @@ import Cards from "../Cards";
  * @param {string} text of the section's body
  * @returns JSX code describing a text section
  */
-export default function HomeProjects({ color, title, text }) {
+function HomeProjects({ color, title, text }) {
     return (
         <div className="text-section" style={{ backgroundColor: color }}>
             <div className="text-section-title">
@@ -22,3 +22,12 @@ export default function HomeProjects({ color, title, text }) {
         </div>
     );
 }
+
+let projectsText = `This website is my first personal project. In relation to my studies, I have been a part of two exciting and instructive semester projects.
+The first project about railway optimization is a program
+written in C, which can read a file containing travel times and stations in a train network and find all pairs shortest paths.
+The second project, Gridflix, is a proof of concept for a grid computing system which uses a host website such as Netflix to recruit workers. 
+Read more about the projects by clicking the cards below. 
+`;
+
+export { HomeProjects, projectsText };

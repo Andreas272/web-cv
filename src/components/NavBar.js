@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 import "./NavBar.css";
-import SocialButtons from "./SocialButtons";
+import {SocialButtons} from "./SocialButtons";
 
-export default function NavBar({ buttons }) {
+ function NavBar({ buttons }) {
     return (
         <>
             <nav className="navbar">
-                <p className="navbar-logo">Work in Progress</p>
+                {/*<p className="navbar-logo">Work in Progress</p>*/}
                 <ul className="nav-menu">
                     <li className="nav-item">
                         <Link to="/" className="nav-links">
@@ -45,3 +45,5 @@ export default function NavBar({ buttons }) {
         </>
     );
 }
+
+export default NavBar;

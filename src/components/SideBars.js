@@ -1,15 +1,15 @@
-import "./Menu.css";
+import "./SideBars.css";
 
 /**
  *
  * @param {string} menuClass describes if where instances of the componenent is placed
  * @returns JSX code describing either the left or right menu
  */
-export default function Menu({ menuClass }) {
-    if (menuClass === "menu-left") {
+function SideBar({ SideBarClass }) {
+    if (SideBarClass === "sidebar-left") {
         return (
             <>
-                <div className={menuClass}>
+                <div className={SideBarClass}>
                     <div className="child-block">
                         <Portrait />
                         <LoookingForJob />
@@ -18,10 +18,10 @@ export default function Menu({ menuClass }) {
             </>
         );
     }
-    if (menuClass === "menu-right") {
+    if (SideBarClass === "sidebar-right") {
         return (
             <>
-                <div className={menuClass}>
+                <div className={SideBarClass}>
                     <div className="child-block">
                         <Skills skillsArray={skillsArray} />
                     </div>
@@ -76,3 +76,5 @@ function LoookingForJob() {
         </>
     );
 }
+
+export default SideBar;
