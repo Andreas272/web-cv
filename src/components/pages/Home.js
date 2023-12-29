@@ -4,7 +4,7 @@ import SideBar from "../SideBars";
 import "./Layout.css";
 
 /**
- * @returns JSX code describing the home page of the web cv
+ * @returns The home page of the web cv
  */
 export function Home({ themeColor }) {
     return (

@@ -4,7 +4,7 @@ import "./InfoProject.css";
  * @param {string} color of the background in the text section
  * @param {string} title of the section
  * @param {string} text of the section's body
- * @returns JSX code describing a text section
+ * @returns Text section about Gridflix
  */
 export default function InfoGridflix({ color }) {
     return (
@@ -37,8 +37,7 @@ export default function InfoGridflix({ color }) {
                     subtask list and send out again.
                 </p>
                 <p>I was in particular working on the following parts.</p>
-                <p style={{ paddingLeft: "15px", marginTop: "-7px" }}>
-                    <lu>
+                    <ul>
                         <li>The WebSocket communication between worker and grid server.</li>
                         <li>
                             Functionality making it possible for the buyer of computational power to
@@ -48,10 +47,7 @@ export default function InfoGridflix({ color }) {
                             Setting up Mocha test environment and writing test cases for core
                             functionality.
                         </li>
-                    </lu>
-                </p>
-                The abstract of the project and a diagram of the system design is shown below.
-                <p></p>
+                    </ul>
             </div>
             <div className="abstract" style={{ backgroundColor: color }}>
                 <h2>Abstract</h2>
@@ -75,7 +71,7 @@ export default function InfoGridflix({ color }) {
                 <h2> Tools </h2>
                 <p>The following tools were, among others, used to develop the system. </p>
                 <p>
-                    <lu>
+                    <ul>
                         <li>node.js</li>
                         <li>Express</li>
                         <li>EJS</li>
@@ -84,7 +80,7 @@ export default function InfoGridflix({ color }) {
                         <li>MongoDB</li>
                         <li> Git </li>
                         <li>Mocha and Chai</li>
-                    </lu>
+                    </ul>
                 </p>
             </div>
             <div className="project-design" style={{ backgroundColor: color }}>

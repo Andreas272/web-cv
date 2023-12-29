@@ -2,7 +2,7 @@ import RailwayInfo from "../sections/InfoRailway";
 import "./Layout.css";
 
 /**
- * @returns JSX code describing the home page of the web cv
+ * @returns The page about the railway project
  */
 export function Railway({ themeColor }) {
     return (

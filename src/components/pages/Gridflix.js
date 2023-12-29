@@ -2,7 +2,7 @@ import InfoGridflix from "../sections/InfoGridflix";
 import "./Layout.css";
 
 /**
- * @returns JSX code describing the home page of the web cv
+ * @returns The Gridflix page
  */
 export function Gridflix({ themeColor }) {
     return (

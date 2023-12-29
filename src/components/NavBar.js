@@ -26,6 +26,9 @@ import {SocialButtons} from "./SocialButtons";
                                 <i class="fa fa-caret-down"></i>
                             </button>
                             <div class="dropdown-content">
+                            <Link to="/blaest-management-system" className="dropdown-links">
+                                    Blade Test Planning 
+                                </Link>
                                 <Link to="/gridflix" className="dropdown-links">
                                     Gridflix
                                 </Link>
