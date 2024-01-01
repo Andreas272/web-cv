@@ -20,13 +20,13 @@ export default function InfoBlaestManagementSystem({ color }) {
                         {" "}
                         P3_Frontend
                     </a>
-                    . The system was developed in cooperation with Blaest and meets the must-have requirements for Blaest to use it. The main feature of the
-                    system is a schedule view where test tasks are represented and can be dragged and dropped to new locations in the schedule. When a change is
+                    . The main feature of the
+                    system is a schedule where test tasks are represented and can be dragged and dropped to new locations in the schedule. When a change is
                     made to the schedule, the backend calculates if there are any conflicts related to the resources attached to the test tasks. If a conflict
                     occurs, it is shown to the user with relevant information. The user can create new tasks, assign resources to them, and maintain the
                     collection of resources in the database.
                 </p>
-                <p>In particular, I worked on the following features of the program:</p>
+                <p>I was in particular working on the following parts of the system:</p>
 
                 <ul>
                     <li>Pending tasks component for tasks not yet placed in the schedule. </li>
