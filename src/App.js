@@ -22,7 +22,6 @@ export default function App() {
                     <Route path="about" element={<About themeColor={themeColor} />} />
                     <Route path="blaest-management-system" element={<BlaestManagementSystem themeColor={themeColor} />} />
                     <Route path="gridflix" element={<Gridflix themeColor={themeColor} />} />
-                    <Route path="railway" element={<Railway themeColor={themeColor} />} />
                     <Route path="this-project" element={<ThisProject themeColor={themeColor} />} />
                 </Route>
             </Routes>

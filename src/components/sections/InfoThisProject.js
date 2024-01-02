@@ -25,7 +25,7 @@ export default function InfoThisProject({ color }) {
                 <p style={{ paddingLeft: "15px", marginTop: "-7px" }}>
                     <lu>
                         <li>Layout with CSS</li>
-                        <li>How to use React</li>
+                        <li>Use of React</li>
                     </lu>
                 </p>
                 <p>

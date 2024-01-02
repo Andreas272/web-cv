@@ -59,8 +59,6 @@ function AboutEducation({ color, title, text }) {
     );
 }
 
-let educationText = `I am currently studying Software at AAU.  
-               I chose to take this pause from working, in order to give myself good circymstances to improve my skills within IT in a major way. As a student at AAU,
-               I am a part of a good environment for learning, and I have the benefit of being able to study full time. `;
+let educationText = `I am currently studying Software at AAU where I am a part of a excellent environment for group-based learning. `;
 
 export { AboutEducation, educationText };

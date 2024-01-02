@@ -20,9 +20,7 @@ function AboutIntro({ color, title, text, coloumnStart, coloumnEnd }) {
     );
 }
 
-let resumeText = `As a student of Software at AAU, I am a part of an environment where we 
-strengthen each other in our learning, and where I learn about new concepts and technologies 
-almost every day. I improve every day as a programmer, and I love to succeed in challenging 
-work.`;
+let resumeText = `My passion for creating user-centric products and my strong analytical mindset have led me to change career tracks from education to the dynamic realm of software engineering. My focus lies in developing easily accessible, robust, and easily maintainable systems. In particular, I am interested in e-commerce due to the sector's significant user base and pivotal role in shaping the economic landscape.
+`;
 
 export {resumeText, AboutIntro}

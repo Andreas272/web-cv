@@ -28,10 +28,8 @@ function HomeIntro({ color, title, text }) {
     );
 }
 
-let introText = `Welcome to my website. I am 30 years old and I study Software at AAU. 
-This website is my first personal project, and I plan to showcase future projects here. 
-For now, you can read about my semester projects at AAU and this website below. 
-If you dont know me, you can read more about me in the About-section.  
+let introText = `Welcome to my website. After four years of work experience within educaion, I am changing tracks and studying to become a software engineer. 
+This website is my first personal project where you can read more about me and my other programming projects. 
 `;
 
 export{HomeIntro, introText}

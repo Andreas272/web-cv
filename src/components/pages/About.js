@@ -15,7 +15,7 @@ export function About({ themeColor }) {
             <div className="main">
                 <AboutIntro
                     color={themeColor}
-                    title="Software Student"
+                    title="Dynamic Software Engineer Excited about E-commerce"
                     text={resumeText}
                     coloumnStart={1}
                     coloumnEnd={8}

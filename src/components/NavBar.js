@@ -32,9 +32,6 @@ import {SocialButtons} from "./SocialButtons";
                                 <Link to="/gridflix" className="dropdown-links">
                                     Gridflix
                                 </Link>
-                                <Link to="/railway" className="dropdown-links">
-                                    Railway Optimization
-                                </Link>
                                 <Link to="/this-project" className="dropdown-links">
                                     This website
                                 </Link>

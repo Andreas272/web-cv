@@ -23,11 +23,9 @@ function HomeProjects({ color, title, text }) {
     );
 }
 
-let projectsText = `This website is my first personal project. In relation to my studies, I have been a part of two exciting and instructive semester projects.
-The first project about railway optimization is a program
-written in C, which can read a file containing travel times and stations in a train network and find all pairs shortest paths.
-The second project, Gridflix, is a proof of concept for a grid computing system which uses a host website such as Netflix to recruit workers. 
-Read more about the projects by clicking the cards below. 
+let projectsText = `In the Software programme at AAU, I have been a part of exciting and instructive semester projects.
+Two notable projects include Gridflix,  a proof of concept grid computing system which uses a host website such as Netflix to recruit workers, and Blade Test Planning, a resource planning system for scheduling structural tests of wind turbine blades.
+Click the cards below to delve into the details of each project.
 `;
 
 export { HomeProjects, projectsText };
