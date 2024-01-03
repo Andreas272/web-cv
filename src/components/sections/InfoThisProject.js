@@ -4,7 +4,7 @@ import "./InfoProject.css";
  * @param {string} color of the background in the text section
  * @param {string} title of the section
  * @param {string} text of the section's body
- * @returns JSX code describing a text section
+ * @returns Text section about this website as a project
  */
 export default function InfoThisProject({ color }) {
     return (
@@ -25,7 +25,7 @@ export default function InfoThisProject({ color }) {
                 <p style={{ paddingLeft: "15px", marginTop: "-7px" }}>
                     <lu>
                         <li>Layout with CSS</li>
-                        <li>How to use React</li>
+                        <li>Use of React</li>
                     </lu>
                 </p>
                 <p>

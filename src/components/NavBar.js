@@ -26,11 +26,11 @@ import {SocialButtons} from "./SocialButtons";
                                 <i class="fa fa-caret-down"></i>
                             </button>
                             <div class="dropdown-content">
+                            <Link to="/blaest-management-system" className="dropdown-links">
+                                    Blaest Management System
+                                </Link>
                                 <Link to="/gridflix" className="dropdown-links">
                                     Gridflix
-                                </Link>
-                                <Link to="/railway" className="dropdown-links">
-                                    Railway Optimization
                                 </Link>
                                 <Link to="/this-project" className="dropdown-links">
                                     This website

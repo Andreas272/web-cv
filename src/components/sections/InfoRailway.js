@@ -4,7 +4,7 @@ import "./InfoProject.css";
  * @param {string} color of the background in the text section
  * @param {string} title of the section
  * @param {string} text of the section's body
- * @returns JSX code describing a text section
+ * @returns Text section about railway project
  */
 export default function InfoRailway({ color }) {
     return (

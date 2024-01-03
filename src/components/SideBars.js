@@ -57,10 +57,11 @@ function Skills({ skillsArray }) {
 }
 
 const skillsArray = [
+
+    { skill: "JavaScript, HTML and CSS", profficiency: "competent" },
+    { skill: "React", profficiency: "competent" },
     { skill: "Java", profficiency: "beginner" },
     { skill: "C", profficiency: "competent" },
-    { skill: "JavaScript (Node.js, React)", profficiency: "competent" },
-    { skill: "HTML/CSS", profficiency: "competent" },
     { skill: "Pyhton (NumPy)", profficiency: "beginner" },
     { skill: "MatLab", profficiency: "competent" },
 ];
