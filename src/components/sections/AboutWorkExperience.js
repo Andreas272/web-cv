@@ -15,12 +15,12 @@ import "./AboutIntro.css"
                     I had the pleaseure of teaching Mathemathics and Physics at Sønderborg Statsskole from 2018 to 2022.
                     I have taught approximately 500 STX and HF students, and was active in projects at the school. For
                     example I have..
-                    <lu>
+                    <ul>
                         <li>.. staged the school's Science Show</li>
                         <li>
                             .. participated in the SDU's project <a href="https://www.sdu.dk/da/forskning/labstem">LabSTEM about developing problem oriented education in mathemathics </a>{" "}
                         </li>
-                    </lu>
+                    </ul>
                 </p>
             </div>
         </div>

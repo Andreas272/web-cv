@@ -24,7 +24,7 @@ function HomeProjects({ color, title, text }) {
 }
 
 let projectsText = `In the Software programme at AAU, I have been a part of exciting and instructive semester projects.
-Two notable projects include Gridflix,  a proof of concept grid computing system which uses a host website such as Netflix to recruit workers, and Blade Test Planning, a resource planning system for scheduling structural tests of wind turbine blades.
+Two notable projects include Gridflix,  a proof of concept grid computing system which uses a host website such as Netflix to recruit workers, and Blaest Management System, a resource planning system for scheduling structural tests of wind turbine blades.
 Click the cards below to delve into the details of each project.
 `;
 

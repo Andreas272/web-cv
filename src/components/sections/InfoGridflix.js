@@ -41,7 +41,7 @@ export default function InfoGridflix({ color }) {
                         <li>The WebSocket communication between worker and grid server.</li>
                         <li>
                             Functionality making it possible for the buyer of computational power to
-                            delete a job from the system. This included updating the databse.
+                            delete a job from the system. This included updating the database.
                         </li>
                         <li>
                             Setting up Mocha test environment and writing test cases for core

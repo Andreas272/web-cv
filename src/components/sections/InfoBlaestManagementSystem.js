@@ -29,8 +29,8 @@ export default function InfoBlaestManagementSystem({ color }) {
                 <p>I was in particular working on the following parts of the system:</p>
 
                 <ul>
-                    <li>Pending tasks component for tasks not yet placed in the schedule. </li>
-                    <li>Drag-and-drop of tasks from the pending tasks component to the schedule and vice versa. </li>
+                    <li>Pending Tasks component for tasks not yet placed in the schedule. </li>
+                    <li>Drag-and-drop of tasks from Pending Tasks to the schedule and vice versa. </li>
                     <li>Displaying conflict messages to the user.</li>
                 </ul>
             </div>

@@ -27,7 +27,7 @@ import {SocialButtons} from "./SocialButtons";
                             </button>
                             <div class="dropdown-content">
                             <Link to="/blaest-management-system" className="dropdown-links">
-                                    Blade Test Planning 
+                                    Blaest Management System
                                 </Link>
                                 <Link to="/gridflix" className="dropdown-links">
                                     Gridflix

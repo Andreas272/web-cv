@@ -19,39 +19,33 @@ function AboutEducation({ color, title, text }) {
                 <p>
                     Projects
                     <ul>
-                        <li>
-                            Gridflix:Engagement Oriented Browser Based Grid Computing Utilizing
-                            Established Consumer Websites
-                        </li>
+                        <li>Blaest Management System: Scheduling and Resource Management System for Wind Turbine Blade Tests.</li>
                         <dd>
-                            A proof-of-concept for browser based grid computing where workers are
-                            hired through a third-party website such as Netflix.com. The source code
-                            can be seen in P2_GridServer and P2_HostServer the groups{" "}
-                            <a href="https://github.com/SW2-09">GitHub</a>.
+                            A system that supports dynamic planning of blade tests by utilizing drag-and-drop functionality and automatic allocation of equipment while notifying conflicts.
+                        </dd>
+                        <li>Gridflix:Engagement Oriented Browser Based Grid Computing Utilizing Established Consumer Websites.</li>
+                        <dd>
+                            A proof-of-concept for browser based grid computing where workers are hired through a third-party website such as Netflix.com. 
                         </dd>
                         <li>
-                            Tool for Planning of Train Speed Upgrades in a Railway Network (
-                            <a href="https://github.com/Andreas272/Projekt-1-semester">
-                                GitHub repository
-                            </a>
-                            )
+                            Tool for Planning of Train Speed Upgrades in a Railway Network.
                         </li>
                         <dd>
-                            The program, which is written in C, can read a text file describing
-                            train stations a travel times in a train network. It then calculates all
-                            pairs shortest paths, and the average travel time in the network. The
-                            user can change travel times in the network and thereby see what effect
-                            a train speed upgrade of a specific connection has to the average travel
-                            time in the whole network.
+                            The user can change travel times in a train network and
+                            thereby see what effect a train speed upgrade of a specific connection has to the average travel time in the whole network. The program is written in C. 
                         </dd>
                     </ul>
                 </p>
                 <p>
                     Courses
                     <ul>
+                        <li>Object Oriented Programming</li>
                         <li>Internetwork and Web-programming</li>
-                        <li>Algorithms and Data-structures</li>
                         <li>Imperativ Programming</li>
+                        <li>Algorithms and Data-structures</li>
+                        <li>Systems Development</li>
+                        <li>Design and Evaluation of User Interfaces</li>
+                        
                     </ul>
                 </p>
             </div>
