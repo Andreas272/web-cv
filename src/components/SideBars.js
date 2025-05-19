@@ -12,7 +12,7 @@ function SideBar({ SideBarClass }) {
                 <div className={SideBarClass}>
                     <div className="child-block">
                         <Portrait />
-                        <LoookingForJob />
+                        <LookingForJob />
                     </div>
                 </div>
             </>
@@ -66,14 +66,13 @@ const skillsArray = [
     { skill: "MatLab", profficiency: "competent" },
 ];
 
-function LoookingForJob() {
+function LookingForJob() {
     return (
         <>
             <h3>Looking For Job</h3>
             <div className="looking-for-job">
-                I am looking for a student job in Aalborg while I finish my bachelordegree in
-                computer sciene. I plan to settle down near Aalborg when I finish the program in
-                june 2025.
+                 I am seeking opportunities as a software engineer in Northern Jutland. 
+                 I am eager to contribute to innovative projects and grow professionally within a collaborative development team.
             </div>
         </>
     );
