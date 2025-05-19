@@ -58,12 +58,13 @@ function Skills({ skillsArray }) {
 
 const skillsArray = [
 
-    { skill: "JavaScript, HTML and CSS", profficiency: "competent" },
-    { skill: "React", profficiency: "competent" },
-    { skill: "Java", profficiency: "beginner" },
-    { skill: "C", profficiency: "competent" },
-    { skill: "Pyhton (NumPy)", profficiency: "beginner" },
-    { skill: "MatLab", profficiency: "competent" },
+    { skill: "JavaScript and TypeScript", profficiency: "competent" },
+    { skill: "React", profficiency: "beginner" },
+    { skill: "PHP", profficiency: "intermediate" },
+    { skill: "Java", profficiency: "competent" },
+    { skill: "C", profficiency: "intermediate" },
+    { skill: "Python", profficiency: "intermediate" },
+    { skill: "Bash", profficiency: "intermediate" },
 ];
 
 function LookingForJob() {
